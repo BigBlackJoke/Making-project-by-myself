@@ -23,13 +23,21 @@
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: #F0F0F0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --black: #292929;
+  --accent-green: #00B068;
+  --white: #F0F0F0;
+  --light-grey: #E4E5E6;
+  --light-accent: #BCDFD1;
+  
+  --transition: 250ms ease-in-out;
 }
 
 @font-face {
@@ -40,6 +48,7 @@
 
 .container {
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 @media screen and (min-width:375px) {
